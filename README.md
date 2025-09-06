@@ -126,3 +126,8 @@ Here are some of the custom key mappings:
     - Incremental search is enabled.
 - **Backups**:
     - Backup files are created in `~/.vim/backup/`.
+
+## Screenshots
+
+![Screenshot 1](img1.png)
+![Screenshot 2](img2.png)
