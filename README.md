@@ -1,6 +1,6 @@
 # My Vim Configuration
 
-This is my personal Vim configuration, tailored for a productive development workflow.
+This is my personal Vim configuration, tailored for a productive development workflow. It is based on the configuration described in [this article](https://leehengtong.com/modern_neovim/).
 
 ## Installation
 
