@@ -4,20 +4,26 @@ This is my personal Vim configuration, tailored for a productive development wor
 
 ## Installation
 
-1.  Clone this repository to `~/.vim`:
+1.  Back up your existing Vim configuration:
+    ```bash
+    mv ~/.vimrc{,.bak}
+    mv ~/.vim{,.bak}
+    ```
+2.  Clone this repository to `~/.vim`:
     ```bash
     git clone https://github.com/your-username/your-vim-config.git ~/.vim
     ```
-2.  From your home directory, create a symbolic link to the `.vimrc` file:
+3.  From your home directory, create a symbolic link to the `.vimrc` file:
     ```bash
     ln -s -f .vim/.vimrc .vimrc
     ```
-3.  Install vim-plug:
+4.  Install vim-plug:
     ```bash
     curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
         https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
     ```
-4.  Open Vim and run `:PlugInstall` to install all the plugins.
+5.  Open Vim and run `:PlugInstall` to install all the plugins.
+
 
 
 ## File Structure
