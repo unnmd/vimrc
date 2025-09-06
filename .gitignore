@@ -1,0 +1,12 @@
+autoload/
+backup/
+black/
+coc.nvim/
+plugged/
+spell/
+view/
+vimspector-py/
+.DS_Store
+*.bak
+*.bak*
+*.swp

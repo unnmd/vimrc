@@ -1,0 +1,52 @@
+{
+  "clangd.path": "~/.config/coc/extensions/coc-clangd-data/install/18.1.3/clangd_18.1.3/bin/clangd",
+  "clangd.arguments": [
+    "--query-driver=/usr/bin/clang++",
+    "--header-insertion-decorators=false",
+    "--completion-style=detailed",
+    "--all-scopes-completion",
+    "-j=8",         
+    "--background-index",
+    "--pch-storage=memory"
+  ],
+  "diagnostic.checkCurrentLine": true,
+  "diagnostic.messageTarget": "float",
+  "coc.preferences.extensionUpdateCheck": "daily",
+  "python.pythonPath": "python",
+  "snippets.ultisnips.pythonPrompt": false,
+  "python.formatting.blackPath": "black",
+  "python.formatting.provider": "black",
+  "python.formatting.blackArgs": [
+        "--line-length=120"
+    ],
+  "python.linting.pylintEnabled": true,
+  "python.linting.enabled": true,
+  "python.linting.mypyEnabled": true,
+  "python.linting.pylintArgs": [
+    "--load-plugins",
+    "pylint_django",
+    "--django-settings-module=core.settings.dev"
+    ],
+  "python.linting.flake8Args": [
+        "--max-line-length=120",
+        "--extend-ignore=E203,W503"
+      ],
+  "python.sortImports.path": "isort",
+  "python.sortImports.args": ["--profile", "black"],
+  "[python]": {
+                      "coc.preferences.formatOnSave": true
+                                   
+  },
+  "suggest.noselect": false,
+  "suggest.enablePreselect": true,
+  "inlayHint.position": "eol",
+
+  "go.goplsPath": "gopls",
+  "go.goplsArgs": ["-remote=auto"],
+
+
+  "[go]": {
+    "coc.preferences.formatOnSave": true
+  }
+
+}
